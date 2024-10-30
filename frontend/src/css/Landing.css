@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.phone-container {
+    width: 393px;
+    height: 852px;
+    border: 8px solid black;
+    border-radius: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: relative;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.challenge {
+    margin-bottom: 20px;
+}
+
+
+/* welcome */
+
+.welcome-card {
+    width: 327px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 30px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+}
+
+.welcome-back {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.welcome-card h3 {
+    font-size: 0.9rem;
+    color: #3fa1dab3;
+}
+  
+.welcome-card h2 {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.sun-img {
+    width: 20px; /* Size of the sun icon */
+    height: 20px; /* Size of the sun icon */
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* streak */
+
+.streak-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 17%;
+    width: 327px;
+    height: 64px;
+}
+  
+.streak-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #a4d3e7;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.streak-text {
+    margin-right: 10px;
+}
+  
+.fire-img {
+    width: 24px;
+    height: 24px;
+}
+
+
+/* challenge */
+
+.challenge-button {
+    padding: 15px 30px;
+    background-color: #484848;
+    color: white;
+    border: none; 
+    border-radius: 10px; 
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 80%; 
+    transform: translate(-50%, -50%); /* Center the button using transform */
+    width: 171px;
+    height: 59px;
+    font-weight: bold;
+}
